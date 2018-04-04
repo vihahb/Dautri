@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!--<item-->
+    <!--android:id="@android:id/progress"-->
+    <!--android:height="@dimen/size_4"-->
+    <!--android:drawable="@drawable/progress_unselected"-->
+    <!--android:gravity="center"-->
+    <!--tools:targetApi="m" />-->
+    <item
+        android:id="@android:id/background"
+        android:height="4dp"
+        android:drawable="@drawable/progress_unselected"
+        android:gravity="center_vertical" />
+    <item
+        android:id="@android:id/secondaryProgress"
+        android:height="4dp"
+        android:drawable="@drawable/progress_selected"
+        android:gravity="center_vertical" />
+    <!--<item-->
+    <!--android:id="@android:id/progress"-->
+    <!--android:height="@dimen/size_4"-->
+    <!--android:drawable="@drawable/progress_selected"-->
+    <!--android:gravity="center"-->
+    <!--tools:targetApi="m" />-->
+
+</layer-list>
